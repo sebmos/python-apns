@@ -7,4 +7,6 @@ __email__ = "gene@gobiko.com"
 __version__ = "0.1.0"
 
 from .client import APNsClient
-from .exceptions import APNsException, Unregistered as UnregisteredException
+from .exceptions import APNsException, \
+    Unregistered as UnregisteredException, \
+    BadDeviceToken as BadDeviceTokenException
